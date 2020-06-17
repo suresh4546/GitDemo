@@ -33,6 +33,7 @@ public class LoginGitHubTest {
 		gpf.userNameFun().sendKeys("githubsuresh4546@gmail.com");
 		gpf.passWordFun().sendKeys("Khan4546");
 		gpf.signInbtnFun().click();
+		gpf.readGuideButtonFun().click();
 	}
 	
 	

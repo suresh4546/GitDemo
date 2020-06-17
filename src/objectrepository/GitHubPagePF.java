@@ -31,6 +31,10 @@ WebElement passWord;
 @FindBy(xpath="//input[@value='Sign in']")
 WebElement signInbtn;
 
+@FindBy(xpath="//a[@target='_blank' and contains(text(),'Read the guide')]")
+WebElement readGuideButton;
+
+
 
 
 public WebElement userNameFun() {
@@ -46,6 +50,10 @@ public WebElement signInbtnFun() {
 	
 }
 
+public WebElement readGuideButtonFun() {
+	
+	return readGuideButton;
+}
 
 }
 
